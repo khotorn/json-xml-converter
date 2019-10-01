@@ -1,0 +1,22 @@
+<employee department = "manager">Garry Smith</employee>
+<person rate = "1" name = "Torvalds" />
+{
+    "employee" : {
+        "@department" : "manager",
+        "#employee" : "Garry Smith"
+    }
+}
+{
+    "person" : {
+        "@rate" : 1,
+        "@name" : "Torvalds",
+        "#person" : null
+    }
+}
+<pizza size = "20">123</pizza>
+{
+	"pizza" : {
+		"@size" : 20,
+		"#pizza" : 123
+	}
+}
